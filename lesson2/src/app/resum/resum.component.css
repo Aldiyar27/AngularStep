@@ -1,0 +1,10 @@
+.body{
+    display: flex;
+}
+.col1{
+    margin-left: 35%;
+}
+
+.col2{
+    margin-left: 7%;
+}

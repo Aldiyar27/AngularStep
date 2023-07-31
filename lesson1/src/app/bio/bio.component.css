@@ -1,0 +1,29 @@
+.body{
+    padding-top: 30px;
+    font-family: sans-serif;
+    color: white;
+    background-color:cornflowerblue;
+    height: 595px;
+    width: 100%;
+}
+.quote{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 580px;
+    height: 150px;
+}
+
+.bio{
+    display: flex;
+    margin-left: 300px;
+}
+
+.bio span{
+    margin-left: 50px;
+}
+
+.hr{
+    margin-left: 500px;
+}
+
