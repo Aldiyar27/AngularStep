@@ -1,0 +1,15 @@
+h1{
+    font-family: sans-serif;
+    color: white;
+}
+div{
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+
+    margin-top: 17%;
+    width: 250px;
+    background-color: darkgreen;
+
+    border-radius: 20px;
+}
