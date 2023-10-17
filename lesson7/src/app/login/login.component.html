@@ -1,9 +1,11 @@
 <div class="login-page">
-    <div class="form-regis">
-        <h4>Вход</h4>
-        <input type="text" placeholder="Userame" class="text-input" id="nameInput">
-        <input type="password" placeholder="Password" minlength="8" maxlength="20" class="text-input" id="passwordInput">
-        <button type="button" class="btnRegister">Войти</button>
-        <a class="sign" routerLink = "/regis"> Зарегистрироваться </a>
-    </div>
-  </div>
+    <form method="get" (ngSubmit)="onSubmit()" class="form-regis">
+      <h4>Вход</h4>
+      <input name="login" type="text" placeholder="Userame" [(ngModel)]="login">
+      <input name="password" type="password" placeholder="Password" [(ngModel)]="password">
+      <button type="button" class="btnRegister" type="submit">Войти</button>
+      <a class="sign"> Зарегистрироваться </a>
+    </form>
+</div>
+
+  <p>{{this.data}}</p>

@@ -35,7 +35,7 @@
     box-shadow: 1px 1px 10px 2px rgb(77, 77, 77);
 }
 
-.text-input{
+input{
     border: 1px solid white;
     width: 75%;
     padding: 9px 17px;

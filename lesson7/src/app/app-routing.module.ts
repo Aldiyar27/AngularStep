@@ -4,8 +4,8 @@ import { RofileComponent } from './rofile/rofile.component';
 import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [ 
-  {path:"regis", component:RofileComponent}, 
-  {path:"login", component:LoginComponent} 
+  {path: "regis", component: RofileComponent}, 
+  {path: "login", component: LoginComponent} 
 ];
 
 @NgModule({
@@ -13,5 +13,5 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { } export const 
-RoutingComponent = [RofileComponent,LoginComponent];
+RoutingComponent = [RofileComponent];
 
